@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base target="_self" />
+    <title>Adelgatan | Hjärtat av Lund</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+  
+
+    <meta
+      name="description"
+      content="Lunds äldsta gatunät och härstammar från när staden byggdes omkring 990."
+      s
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./adelgatanStyle.css" />
+
+    <!--This part is the head icons of the page-->
+    <link rel="icon" href="./photoGallery/icons/icons8-home-48.png" />
+    <!--This part is the social media icons of the footer-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- This part is the script of the readMore buttons -->
+    
+    <script type="text/javascript" src="./readMoreBtn.js"></script>
+ 
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Adelgatan | Hjärtat av Lund</h1>
+        <p>Ett av Lund mest kända vykortsmotiv tillbaka till 1844.</p>
+      </header>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"
+      ></script>
+      <!--nav bar-->
+      <nav>
+        <ul>
+          <li>
+            <a href="reseguide.html"> Reseguide</a>
+          </li>
+
+          <li>
+            <a href="nyheter.html" > Nyheter</a>
+          </li>
+
+          <li>
+            <a href="matsal.html"class="active"> Matsal</a>
+          </li>
+
+          <li>
+            <a href="historia.html" >Historia</a>
+          </li>
+
+          <li>
+            <a href="author.html"> Författare</a>
+          </li>
+        </ul>
+      </nav>
+
+      
+      <section class="container">
+        <!--left, main part of the page-->
+        <!--This part is the script of the 'read more' button-->
+
+        <section class="left">
+
+          <h2>Vill du veta de bästa restaurangerna nära Adelgatan? </h2>
+        </br>
+          
+          <div class="card" id="newsCard" data-news="newsFood1">
+            <div class="newsCard">
+            <h3>Rauhrackel</h3>
+            <div class="info"> <span class="date"> Stora Algatan 5</span> </div>
+            <div class="img"><img src="./photoGallery/rauhrackel.jpeg" > </div>
+            <p><i>⭐⭐⭐⭐</i></p>
+            <p>
+              Rauhrackeln är ett sagoväsen som enligt berättelserna besökte stygga barn i Österrike. I Lund betyder Rauhrackel något helt annat, vi är den mest gemytliga restaurangen i staden och när du kommer till oss så får du en karaktärsfull upplevelse – med hög kvalitet, förstås! 
+                <span class="dots">...</span>
+                <span class="more" style="display: none;">Vår utgångspunkt är Tyrolen, men vi hämtar inspiration både från norr och söder om regionen. Vi vill alltid att du som kund ska känna igen dig och ha samma höga förväntningar på maten, drycken och bemötandet. Vi vill också överraska, prova därför gärna våra specialiteter under de olika säsongerna.
+
+                  Välkommen till Restaurang Rauhrackel – låt oss bli vänner!</span>
+            </p>
+            
+          </div>
+            <button onclick="readMore('newsFood1')" class="myBtn">Read more</button>
+        
+          </div>
+        <br>
+          <div class="card" id="newsCard" data-news="newsFood2">
+            <div class="newsCard">
+            <h3>Kulturens restaurang</h3>
+            <div class="info"> 
+              <span class="date"> Tegnérsplatsen 6</span> 
+              </div>
+            <div class="img"><img src="./photoGallery/kulturenRestaurang.png" > </div>
+            <p><i>⭐⭐⭐⭐⭐</i></p>
+            <p>
+              Med vår mångsidiga expertis är Kulturens Restaurang den perfekta platsen för din middag. Oavsett om du vill fira en disputation, hålla i en halvtidsfest, födelsedagsmiddag eller samla kollegor, familj och vänner så är det till oss du vänder dig. Läs mer om oss och vad vi erbjuder er nedan.
+                <span class="dots">...</span>
+                <span class="more" style="display: none;">I vårt nya uppdaterade lunchkoncept "Delad glädje -dubbel glädje" har vi tillsammans med våra kreativa kockar svävat fritt. Detta resulterade i ett spännande och lekfullt koncept där kökets mest omtyckta rätter nu presenteras ”sharing style” i tre serveringar där rätterna delas över bordet. Menyn är säsongsanpassad och föränderlig och fokuserar på svenska råvaror med tillhörande inspirerad dryck där vi också kommer att ta fasta på betydande högtider. Vår ambition är att det ska kännas hemtrevligt, familjärt och kul.</span>
+            </p>
+            
+          </div>
+            <button onclick="readMore('newsFood2')" class="myBtn">Read more</button>
+        
+          </div>
+          <br>
+            <div class="card" id="newsCard" data-news="newsFood3">
+              <div class="newsCard">
+              <h3>Challes</h3>
+              <div class="info"> 
+                <span class="date"> St Tomegatan 37</span> 
+                </div>
+              <div class="img"><img src="./photoGallery/challes.jpeg" > </div>
+              <p><i>⭐⭐⭐ </i></p>
+              <p>
+                Denna restaurang är ett perfekt val om du är på humör för det mexikanska köket. God pizza kommer att imponera på dig vid första tuggan.
+                  <span class="dots">...</span>
+                  <span class="more" style="display: none;">Från gästernas synvinkel är personalen glada här. Ett antal besökare tycker att tjänsten är fantastisk. Men google-användare betygsatte Challes och det fick inte ett högt betyg.</span>
+              </p>
+            
+          </div>
+            <button onclick="readMore('newsFood3')" class="myBtn">Read more</button>
+        
+          </div>
+        
+        
+        </section>
+      </section>
+
+      
+
+        
+      </section>
+
+
+    </main>
+
+    <footer class="container-fluid bg-grey py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="logo-part">
+                  <img
+                    src="./photoGallery/icons/AileenCoLtd.png"
+                    class="w-50 logo-footer"
+                  />
+                  <p>Adelgatan 10B, 22350 Lund, Sweden. +46739963855</p>
+                  <p>
+                    A growing innovative company devoted to front end solution.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 px-4">
+                <h6>About Company</h6>
+                <p>
+                  I told you it is a growing innovative company devoted to front
+                  end solution!
+                </p>
+                <a href="#" class="btn-footer"> More Info </a><br />
+                <a href="#" class="btn-footer"> Contact Us</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-6 px-4">
+                <h6>Help us</h6>
+                <div class="row">
+                  <div class="col-md-6">
+                    <ul>
+                      <li><a href="#"> Home</a></li>
+                      <li><a href="#"> About</a></li>
+                      <li><a href="#"> Service</a></li>
+                      <li><a href="#"> Team</a></li>
+                      <li><a href="#"> Help</a></li>
+                      <li><a href="#"> Contact</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6 px-4">
+                    <ul>
+                      <li><a href="#"> Faciliy</a></li>
+                      <li><a href="#"> Fax</a></li>
+                      <li><a href="#"> Terms</a></li>
+                      <li><a href="#"> Policy</a></li>
+                      <li><a href="#"> Refunds</a></li>
+                      <li><a href="#"> Swish</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <h6>Newsletter</h6>
+                <div class="social">
+                  <a href="#"
+                    ><i class="fa fa-facebook" aria-hidden="true"></i
+                  ></a>
+                  <a href="#"
+                    ><i class="fa fa-instagram" aria-hidden="true"></i
+                  ></a>
+                </div>
+                <form class="form-footer my-3">
+                  <input
+                    type="text"
+                    placeholder="search here...."
+                    name="search"
+                  />
+                  <input type="button" value="Go" />
+                </form>
+                <p>Explore more about our wonderful Aillen Co,Ltd</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
